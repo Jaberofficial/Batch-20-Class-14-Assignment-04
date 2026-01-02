@@ -1,0 +1,11 @@
+======================
+Some Important Links
+======================
+
+For Any Size of Dummy image use from this website (https://placehold.co/)
+
+For Any cdn link collect from this website (https://cdnjs.com/libraries/font-awesome)
+
+for get icon use this website  ( https://fontawesome.com/)
+
+for create box shadow and use easily use this website (https://cssgenerator.org/)

@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Hero Section Design */
+
+.header-section {
+
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+
+
+}
+
+.hero-content {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-responsive {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.hero-content h1 {
+    /* 1rem = 16px */
+    font-size: 4rem;
+    margin-bottom: 25px 0px;
+    color: #f65608;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero-content p {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #D82ADE;
+    margin-bottom: 30px;
+}
+
+.btn-custom {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: #0D6EE9;
+    background-color: #F85606;
+    padding: 15px 30px;
+    border-radius: 25px;
+    transition: background-color 1s ease;
+}
+
+.btn-custom:hover {
+    background-color: green;
+    color: beige;
+
+}
+
+
+
+/* Product Section Design */
+
+.product-section {
+    /* 
+    background-color: rgb(248, 240, 230); */
+    padding: 60px 0px;
+}
+
+.product-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+}
+
+
+.product-card {
+
+    padding: 30px;
+    background-color: #CFC3C3;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: -10px 10px 10px 2px rgba(143, 141, 141, 0.75);
+    transition: transform 0.5s ease;
+}
+
+.product-card:hover {
+    transform: translate(-10px);
+}
+
+.product-card img {
+
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.product-card h5 {
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+}
+
+.product-card p {
+
+    color: #A72F2A;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+/* Customer Section Design */
+
+.customer-section {
+    padding: 60px 0px;
+}
+
+
+.customer-section h2 {
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.customer-box {
+    padding: 30px;
+    background-color: #fe8888;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: -10px 10px 10px 2px rgba(143, 141, 141, 0.75);
+    transition: transform 0.5s ease;
+}
+
+.customer-box:hover {
+    transform: translate(-10px);
+}
+
+.customer-section img {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 5px;
+}
+
+.customer-section p {
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.customer-section h5 {
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+
+}
+
+
+
+
+/* Checkout Section Design */
+
+.checkout-section {
+
+    padding: 60px 0px;
+}
+
+.checkout-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+}
+
+.custom-form {
+    background-color: #808080;
+    padding: 30px;
+    max-width: 450px;
+    margin: 0px auto;
+    box-shadow: -5px 8px 15px 1px rgba(112, 180, 39, 0.75);
+}
+
+.form-label {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.custom-input {
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.btn {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+
+
+/* Footer Content Design */
+
+.footer-section {
+    padding: 60px 0px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content img {
+    width: 150px;
+    height: 80px;
+
+}
+
+.custom-icons a {
+    color: aliceblue;
+    font-size: 1.5rem;
+    transition: color 1s ease;
+}
+
+.custom-icons a:hover {
+    color: #0D6EE9;
+}
+
+.footer-content p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+
+
+
+
+/* Hero Content Responsive  */
+/*DESKTOP-TABLET VIEW */
+@media (max-width: 1260px) and (min-width: 1130px) {
+
+    .hero-content h1 {
+        font-size: 2.8rem;
+    }
+
+    .hero-content p {
+        font-size: 1.5rem;
+    }
+
+    .btn-custom {
+        font-size: 1.2rem;
+        padding: 12px 25px;
+    }
+}
+
+@media (max-width: 1130px) and (min-width: 905px) {
+
+    .hero-content h1 {
+        font-size: 2.8rem;
+    }
+
+    .hero-content p {
+        font-size: 1.5rem;
+    }
+
+    .btn-custom {
+        font-size: 1.2rem;
+        padding: 12px 25px;
+    }
+}
+
+@media (max-width: 905px) and (min-width: 805px) {
+
+    .hero-content h1 {
+        font-size: 2.6rem;
+    }
+
+    .hero-content p {
+        font-size: 1.3rem;
+    }
+
+    .btn-custom {
+        font-size: 1rem;
+        padding: 12px 22px;
+    }
+}
+
+
+@media (max-width: 805px) and (min-width: 720px) {
+
+    .hero-content h1 {
+        font-size: 2.3rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .btn-custom {
+        font-size: 0.7rem;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 720px) and (min-width: 577px) {
+
+    .hero-content h1 {
+        font-size: 2rem;
+        line-height: 1.2;
+        margin-top: 15px;
+    }
+
+    .hero-content p {
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+
+    .btn-custom {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
+
+/*MOBILE VIEW */
+@media (max-width: 576px) {
+
+    .hero-content {
+        width: 90%;
+        padding: 0 10px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.5rem;
+        line-height: 1.2;
+        margin-top: 30px;
+    }
+
+    .hero-content p {
+        font-size: 0.6rem;
+        margin-bottom: 20px;
+    }
+
+    .btn-custom {
+        font-size: 0.5rem;
+        padding: 7px 14px;
+    }
+}
+
+
+/* Footer Content Responsive */
+/*DESKTOP-TABLET VIEW */
+
+@media (max-width: 768px) and (min-width: 577px) {
+
+    .footer-content {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 60px;
+    }
+
+
+
+
+    /* Use For All div for Don't Take Full Width */
+    .footer-content>div {
+        flex: 0 0 auto;
+        /* auto width */
+        width: auto;
+    }
+
+    .footer-content img {
+        width: 120px;
+
+    }
+
+    .custom-icons {
+        display: flex;
+        gap: 8px;
+    }
+
+    .custom-icons a {
+        font-size: 1.3rem;
+    }
+
+    .footer-content p {
+        font-size: 12px;
+        white-space: nowrap;
+        margin: 0;
+    }
+}
+
+
+/*MOBILE VIEW */
+@media (max-width: 576px) {
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer-content img {
+        width: 130px;
+        max-width: 130px;
+    }
+
+    .custom-icons a {
+        font-size: 1.4rem;
+    }
+
+    .footer-content p {
+        font-size: 14px;
+        margin: 0;
+    }
+}
